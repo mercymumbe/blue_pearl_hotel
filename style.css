@@ -67,8 +67,8 @@ nav{
     color: white;
   }
   .container-grid{
-    display: flex;
-    gap: 40px;
+    display:flex;
+
   }
 
  
