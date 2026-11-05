@@ -1,0 +1,19 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+}
+/* header section */
+header{
+    display: flex;
+    color: rgb(4, 4, 87);
+    background-color: rgb(6, 230, 230);
+
+}
+.login:hover{
+    color: white;
+}
+.dashboard{
+    
+}
