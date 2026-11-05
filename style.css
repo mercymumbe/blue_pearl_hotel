@@ -66,6 +66,9 @@ nav{
   a:hover {
     color: white;
   }
+  .home{
+    background-image:url(images/beach_view.jpg) ;
+  }
   .container-grid{
     display:flex;
 
