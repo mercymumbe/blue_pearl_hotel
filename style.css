@@ -66,17 +66,48 @@ nav{
   a:hover {
     color: white;
   }
+  .container-grid{
+    display: flex;
+    gap: 40px;
+  }
+
+ 
+
+/* Sidebar styling */
+.sidebar {
+    width: 200px;
+    background-color:rgb(4, 4, 87);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+/* Sidebar navigation */
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+nav li a{
+    text-decoration: none;
+    color:rgb(85, 178, 236) ;
+}
 
 
 .Statistics-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    margin-bottom: 35px;
     padding: 10px;
+    width: 600px;
 }
 
 .card {
+    color:rgb(4, 4, 87) ;
     background-color: white;
     padding: 25px;
     border-radius: 10px;
