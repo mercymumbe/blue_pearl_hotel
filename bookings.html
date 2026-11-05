@@ -64,7 +64,7 @@
                     </aside>
                 </div>
             </section>
-             <!-- Booking Statistics -->
+            <!-- Booking Statistics -->
             <section class="Statistics-card">
 
                 <div class="card">
@@ -88,28 +88,103 @@
                 </div>
 
             </section>
-            
-        </div>
- <!-- Bookings Table -->
-            <section class="bookings">
 
-                <div class="section-header">
-                    <h2>All Bookings</h2>
-                    <button type="button">+ Add Booking</button>
-                </div>
-                <br>
-                <!-- Search Booking section-->
-                <div class="search">
-                    <label for="search">Search</label>
-                    <input type="text" placeholder="Search bookings..." id="search">
-                    <select>
-                        <option value="">All Statuses</option>
-                        <option value="confirmed">Confirmed</option>
-                        <option value="pending">Pending</option>
-                        <option value="checked-in">Checked In</option>
-                        <option value="cancelled">Cancelled</option>
-                    </select>
-                </div>
+        </div>
+        <!-- Bookings Table -->
+        <section class="bookings">
+
+            <div class="section-header">
+                <h2>All Bookings</h2>
+                <button type="button">+ Add Booking</button>
+            </div>
+            <br>
+            <!-- Search Booking section-->
+            <div class="search">
+                <label for="search">Search</label>
+                <input type="text" placeholder="Search bookings..." id="search">
+                <select>
+                    <option value="">All Statuses</option>
+                    <option value="confirmed">Confirmed</option>
+                    <option value="pending">Pending</option>
+                    <option value="checked-in">Checked In</option>
+                    <option value="cancelled">Cancelled</option>
+                </select>
+            </div>
+            <br>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Booking ID</th>
+                        <th>Guest Name</th>
+                        <th>Room</th>
+                        <th>Type</th>
+                        <th>Check In</th>
+                        <th>Check Out</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>BK001</td>
+                        <td>John Kamau</td>
+                        <td>Room 10</td>
+                        <td>Bed Sitter</td>
+                        <td>06 Nov 2026</td>
+                        <td>09 Nov 2026</td>
+                        <td>Ksh 9,000</td>
+                        <td><span class="confirmed">Confirmed</span></td>
+                        <td>
+                            <button class="edit-btn">Edit</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>BK002</td>
+                        <td>Mary Wanjiku</td>
+                        <td>Room 23</td>
+                        <td>One Bedroom</td>
+                        <td>07 Nov 2026</td>
+                        <td>10 Nov 2026</td>
+                        <td>Ksh 12,000</td>
+                        <td><span class="pending">Pending</span></td>
+                        <td>
+                            <button class="edit-btn">Edit</button>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>BK003</td>
+                        <td>Peter Otieno</td>
+                        <td>Room 32</td>
+                        <td>Two Bedroom</td>
+                        <td>08 Nov 2026</td>
+                        <td>11 Nov 2026</td>
+                        <td>Ksh 15,000</td>
+                        <td><span class="confirmed">Confirmed</span></td>
+                         <td>
+                                <button class="edit-btn">Edit</button>
+                            </td>
+                    </tr>
+
+                    <tr>
+                        <td>BK004</td>
+                        <td>Grace Akinyi</td>
+                        <td>Room 35</td>
+                        <td>Two Bedroom</td>
+                        <td>09 Nov 2026</td>
+                        <td>12 Nov 2026</td>
+                        <td>Ksh 8,000</td>
+                        <td><span class="cancelled">confirmed</span></td>
+                         <td>
+                                <button class="edit-btn">Edit</button>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
     </main>
 </body>
 
