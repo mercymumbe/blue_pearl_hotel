@@ -7,13 +7,37 @@ body{
 /* header section */
 header{
     display: flex;
+    align-content: space-between;
+    gap: 400px;
     color: rgb(4, 4, 87);
-    background-color: rgb(6, 230, 230);
+    background-color: rgb(85, 178, 236);
+    position: sticky;
 
+}
+.login{
+    position: ;
 }
 .login:hover{
     color: white;
 }
 .dashboard{
+    background-color:rgb(85, 178, 236) ;
+    margin-right: 80%;
+    margin-left: 10px;
+}
+.sidebar ul {
+ list-style: none;
+ 
+}
+.sidebar li {
+    padding: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 15px;
     
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(4, 4, 87);
 }
