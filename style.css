@@ -60,9 +60,9 @@ nav li a {
     background-color: white;
     padding: 25px;
     border-radius: 10px;
-    border: 1px solid ;
-    box-shadow:  rgb(85, 178, 236);
-}
+    border: 1px solid, color(blue) ;
+    box-shadow: 0 4px 8px rgb(85, 178, 236);
+  }
  /* footer*/
   footer {
     display: grid;
